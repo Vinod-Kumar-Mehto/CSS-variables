@@ -1,0 +1,35 @@
+:root{
+    --base: #460ee0;
+    --spacing: 50px;
+    --blur: 10px;
+}
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+    background-color: #56ecd3;
+    color: white;
+    font-weight: 100;
+    font-size: 50px;
+}
+.controls{
+
+    margin-bottom: 50px;
+}
+
+img[alt="tree"]{
+    width: 70%;
+    height: 10%;
+    padding: var(--spacing);
+    background: var(--base);
+    filter: blur(var(--blur));
+}
+
+.hl{
+    color: var(--base);
+}
